@@ -79,7 +79,8 @@ while True:
             pyautogui.click()
             # Pause for 2 seconds after clicking
             pyautogui.sleep(2)
-            print("mouse clicked")  # Print a message indicating a click occurred
+            # Print a message indicating a click occurred
+            print("mouse clicked")  
 
     # Display the processed image in a window titled "Eye controlled mouse"
     cv2.imshow("Eye controlled mouse", image)
